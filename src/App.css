@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #282c34;
+  min-width: 160px;
+  box-shadow: #61dafb;
+
+}
+
+.dropdown-content a{
+  color: #111;
+  display: block;
+  text-align: left;
+}
