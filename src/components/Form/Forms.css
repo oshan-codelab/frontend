@@ -5,12 +5,63 @@
 
   .myDiv {
     
-    background-color: lightblue;    
+    background-color: lightblue; 
+    width: 50%;
+    height: 100%;   
     
   }
 
-  .margin {
-    margin-top: 10px;
+ 
+
+  .btn{
+    margin-top: 5%;
     margin-bottom: 10px;
+
     width:50%;
+    background-color: bisque;
+    color: #000;
   }
+
+  .button{
+   
+    width:50%;
+    height:40px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 5px #000000;
+    
+  }
+
+.catogari{
+    margin-top: 5px;
+
+
+}
+
+
+.ta{
+    width:50%;
+}
+
+.tt{
+    width:50%;
+   
+    
+}
+
+.btd{
+  margin-top: 40%;
+}
+
+.l{
+  width: 70%;
+  margin-top: 10%;
+}
+
+.button{
+   
+  width:50%;
+  height:40px;
+  border-radius: 8px;
+  box-shadow: 5px 10px 5px #000000;
+  
+}
