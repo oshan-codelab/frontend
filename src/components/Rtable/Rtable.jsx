@@ -1,9 +1,8 @@
 
 import React, { Component } from "react";
 import "./report.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrash } from "@fortawesome/free-solid-svg-icons";
-import { faEdit } from "@fortawesome/free-solid-svg-icons";
+
+import {Link} from 'react-router-dom';
 
 
 
@@ -13,8 +12,8 @@ function OrderDetails(params) {
     <div>
       <div align="center">
         
-        <button className="btn1">Current Order</button>
-        <button className="btn1">Previos Order</button>
+        <button className="btn1"><Link  to="/form">Add Order </Link></button>
+        <button className="btn1"><Link to="/Report" >Reportr</Link></button>
       </div>
 
       <br></br>
@@ -30,6 +29,8 @@ function OrderDetails(params) {
                 <th scope="col">Email</th>
                 <th scope="col">Address</th>
                 <th scope="col">Phone Number</th>
+                <th scope="col">Date</th>
+
                 <th scope="col">Value</th>
                 <th scope="col"></th>
                 
@@ -43,6 +44,7 @@ function OrderDetails(params) {
                 <td>devinda@gmail.com</td>
                 <td>yakkala</td>
                 <td>0750191639</td>
+                <td>1999/10/07</td>
                 <td>500.00</td>
                 <td scope="row">
         
