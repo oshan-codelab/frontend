@@ -43,7 +43,9 @@
 
   .button{
    
-   
+    width:50%;
+    height:400%;
+    border-radius: 8px;
     box-shadow: 5px 10px 5px #000000;
     
   }
@@ -62,17 +64,27 @@
 
 .tt{
     width:100%;
-   height: 30%;
+   height: 100%;
+   background-color:#F5EAEA;
     
 }
-
+.Fbotom{
+  margin-bottom: 5%;
+}
 .btd{
   margin-top: 40%;
 }
 
-.l{
+.Rl{
   width: 70%;
   margin-top: 10%;
+  width: 70%;
+  margin-right: 5%;
+}
+.Fl{
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 10%;
 }
 
 .button{
@@ -82,4 +94,9 @@
   border-radius: 8px;
   box-shadow: 5px 10px 5px #000000;
   
+}
+
+.Fb{
+  margin-bottom: 20%;
+  margin-top: 10%;
 }

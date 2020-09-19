@@ -5,7 +5,9 @@ import Form from "./components/Form/Form";
 import Report from "./components/Report/Report";
 import Rtable from "./components/Rtable/Rtable";
 import { BrowserRouter,Route,Switch } from 'react-router-dom';
+import Footer from "./components/Footer";
 import {Link} from 'react-router-dom';
+
 
 
 
@@ -38,7 +40,7 @@ function App() {
       </Switch>
       </BrowserRouter>
      
-     
+     <Footer />
     
       
 

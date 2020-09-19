@@ -3,12 +3,14 @@ import React, { Component } from "react";
 import "./report.css";
 
 import {Link} from 'react-router-dom';
+import Footer from '../Footer';
 
 
 
 function OrderDetails(params) {
 
   return (
+    
     <div>
       <div align="center">
         
@@ -17,13 +19,13 @@ function OrderDetails(params) {
       </div>
 
       <br></br>
-      <div className="row">
+      <div className="container" className="Fbotom">
         
 
         <div className="col-sm">
-          <table class="table">
+          <table className="customers" >
             <thead class="thead-dark">
-              <tr>
+              <tr >
                 <th scope="col">Order No</th>
                 <th scope="col">Customer Name</th>
                 <th scope="col">Email</th>
@@ -39,7 +41,7 @@ function OrderDetails(params) {
             </thead>
             <tbody>
               <tr>
-                <th scope="row">001</th>
+                <td scope="row">001</td>
                 <td>oshan devinda</td>
                 <td>devinda@gmail.com</td>
                 <td>yakkala</td>
@@ -63,6 +65,33 @@ function OrderDetails(params) {
 
       </td>
               </tr>
+
+              <tr>
+                <td scope="row">001</td>
+                <td>oshan devinda</td>
+                <td>devinda@gmail.com</td>
+                <td>yakkala</td>
+                <td>0750191639</td>
+                <td>1999/10/07</td>
+                <td>500.00</td>
+                <td scope="row">
+        
+        <div class="form-group row">
+
+         <div >
+          <button >UPDATE</button>
+         </div>
+
+         <div >
+          <button >DELETE</button>
+         </div>
+
+        </div>
+       
+
+      </td>
+              </tr>
+              
            
             </tbody>
           </table>
@@ -70,8 +99,10 @@ function OrderDetails(params) {
        
           
         </div>
+        
       </div>
-
+      
+      
       
    
   );

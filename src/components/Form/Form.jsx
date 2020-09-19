@@ -14,8 +14,8 @@ function form(){
                  <ul class="list-group">
        
                      <h3  className="catogari">Categories</h3>
-                    <button className="button"><Link  to="/form"><h5><b>ADD Order</b></h5></Link> </button>
-                    <button  className="button"><Link to="/Report"><h4><b>Report</b></h4></Link></button>
+                    <button className="button"><Link  to="/form" className="link" style={{textDecoration:"none"}}><h5><b>ADD </b></h5></Link> </button>
+                    <button  className="button"><Link to="/Report" style={{textDecoration:"none"}}><h4><b>Report</b></h4></Link></button>
                     
                     <p></p>
                  </ul>
@@ -23,11 +23,11 @@ function form(){
             </td>
        
         <td >
-        <table className="l" >
+        <table className="Fl" >
         <tr>
         <td >
 
-        <form >
+        <form  className="Fbotom">
 
        
         

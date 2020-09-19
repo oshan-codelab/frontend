@@ -19,8 +19,8 @@ function Report(){
                  <ul class="list-group">
                     
                     <h3  className="catogari">Categories</h3>
-                    <button className="button"><Link  to="/form"><h5><b>ADD Order</b></h5></Link> </button>
-                    <button  className="button"><Link to="/Report" ><h4><b>Report</b></h4></Link></button>
+                    <button className="button"><Link  to="/form" style={{textDecoration:"none"}}><h5><b>ADD </b></h5></Link> </button>
+                    <button  className="button"><Link to="/Report" style={{textDecoration:"none"}}><h4><b>Report</b></h4></Link></button>
                     
                    
                    
@@ -30,13 +30,13 @@ function Report(){
                 </div>
             </td>
             <td>
-            <table className="l" >
+            <table className="Rl" >
                 <tr>
                     
                     <td>
-                             
-                             <form className="divs"  >
-                                <center><div class="form-group" className="container mt-4"  style={{backgroundColor: "lightblue"}} >
+                             <center>
+                             <form className="divs"  className="Fb">
+                                <center><div class="form-group" className="container"  style={{backgroundColor: "lightblue"}} >
                                 <label className="labl"><h1><b>Date</b></h1></label>
            
                                  <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ender Order Number" className="margin"></input>
@@ -52,6 +52,7 @@ function Report(){
                 
        
                                 </form>
+                                </center>
                     </td>
                 </tr>
             </table>
