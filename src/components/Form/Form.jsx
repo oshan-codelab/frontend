@@ -27,7 +27,7 @@ function form(){
         <tr>
         <td >
 
-        <form  className="Fbotom">
+        <form  className="FbotomForm">
 
        
         
