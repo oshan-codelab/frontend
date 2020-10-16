@@ -27,13 +27,13 @@ function form(){
         <tr>
         <td >
 
-        <form  className="FbotomForm">
+        <form  className="FbotomForm" name="myForm" onsubmit="return validateForm()"  id="myForm"  >
 
        
         
         <div class="form-group" className="container mt-4"  style={{backgroundColor: "lightblue"}}>
-            <label  ><b>Order No</b></label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ender Order Number"></input>
+            <label  for="fname"><b>Order No</b></label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ender Order Number" name="name"></input>
             
             <label ><b>Rider Name</b></label>
             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter rider Name"></input>
@@ -58,7 +58,8 @@ function form(){
             
 
 
-           <center><button  className="btn" >Add</button></center> 
+           <center><button  className="btn"   onsubmit="myFunction()" id="demo">Add</button></center> <br></br>
+           <center><button  className="btnnn"   onsubmit="reset()" id="demo">reset</button></center>
            
 
             

@@ -22,6 +22,16 @@
     color: #000;
 
   }
+  .btnnn{
+   
+    margin-bottom: 5px;
+    
+    width:50%;
+    background-color: bisque;
+    color: #000;
+
+  }
+  .btnnn:hover {background-color: #FFBF00}
   .btn:hover {background-color: #FFBF00}
 
   .button{

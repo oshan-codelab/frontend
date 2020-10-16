@@ -46,7 +46,7 @@ function OrderDetails(params) {
                 <td>devinda@gmail.com</td>
                 <td>yakkala</td>
                 <td>0750191639</td>
-                <td>1999/10/07</td>
+                <td>2020/9/23</td>
                 <td>500.00</td>
                 <td scope="row">
         
@@ -72,7 +72,7 @@ function OrderDetails(params) {
                 <td>devinda@gmail.com</td>
                 <td>yakkala</td>
                 <td>0750191639</td>
-                <td>1999/10/07</td>
+                <td>2020/9/23</td>
                 <td>500.00</td>
                 <td scope="row">
         
